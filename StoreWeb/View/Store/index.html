@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Store</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" href="./Resources/Icon_ElPancito.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="./src/StorageArray.js"></script>
+    <script src="./View/Store/index.js"></script>
+    <link rel="stylesheet" type="text/css" href="./View/Store/index.css">
+</head>
+
+<body onresize=setResize() onload=setResize()>
+
+    <table class="MenuTable" id="MenuTable">
+        <tr class="MenuRow" id="MenuRow">
+            <td class='ShowList' id='ShowList'><a href="#List" style="text-decoration:none; color: black"> Lista </a>
+            </td>
+            <td class='ShowTotal' id='ShowTotal'> $0 </td>
+            <td class='SendList' id='SendList'><a href="#List" style="text-decoration:none; color: black"> Guardar </a>
+            </td>
+        </tr>
+
+        <div class='LessProduct' id='LessProduct'>-</div>
+        <div class='MoreProduct' id='MoreProduct'>+</div>
+        <select id="SetQuantity" class="SetQuantity"></select>
+
+        <table class="CategoryTable" id="CategoryTable">
+            <tr class="CategoryRow" id="CategoryRow"></tr>
+        </table>
+
+        <table class="ProductsTable" id="ProductsTable"></table>
+
+        <table class="ListTable" id="ListTable"></table>
+
+        <table class="TotalTable" id="TotalTable">
+            <tr class="TotalRow" id="TotalPaidTitleRow">
+                <th colspan="3" class="TotalTitleHeader" id='TotalPaidTitleData'>Paga con :</th>
+            </tr>
+
+            <tr class="TotalRow" id="TotalPaidRow">
+                <td colspan="3" class="TotalValueData" id='TotalPaidData'></td>
+            </tr>
+
+            <tr class="TotalRow" id="TotalReturnTitleRow">
+                <th colspan="3" class="TotalTitleHeader" id='TotalReturnTitleData'>Su Vuelto :</th>
+            </tr>
+            <tr class="TotalRow" id="TotalReturnRow">
+                <td colspan="3" class="TotalValueData" id='TotalReturnData'></td>
+            </tr>
+            <tr class="TotalRow" id="TotalNumberRow1">
+                <td class='TotalNumberButton' id='TotalNumberButton1'>1</td>
+                <td class='TotalNumberButton' id='TotalNumberButton2'>2</td>
+                <td class='TotalNumberButton' id='TotalNumberButton3'>3</td>
+            </tr>
+            <tr class="TotalRow" id="TotalNumberRow2">
+                <td class='TotalNumberButton' id='TotalNumberButton4'>4</td>
+                <td class='TotalNumberButton' id='TotalNumberButton5'>5</td>
+                <td class='TotalNumberButton' id='TotalNumberButton6'>6</td>
+            </tr>
+            <tr class="TotalRow" id="TotalNumberRow3">
+                <td class='TotalNumberButton' id='TotalNumberButton7'>7</td>
+                <td class='TotalNumberButton' id='TotalNumberButton8'>8</td>
+                <td class='TotalNumberButton' id='TotalNumberButton9'>9</td>
+            </tr>
+            <tr class="TotalRow" id="TotalNumberRow4">
+                <td class='TotalNumberButton' id='TotalNumberButtonDot'>.</td>
+                <td class='TotalNumberButton' id='TotalNumberButton0'>0</td>
+                <td class='TotalNumberButton' id='TotalNumberButtonBackspace'>←</td>
+            </tr>
+        </table>
+
+        <div class="AskSendDiv" id="AskSendDiv">Guardar Lista ?
+            <div class="YesSendDiv" id="YesSendDiv">Si</div>
+            <div class="NoSendDiv" id="NoSendDiv">No</div>
+        </div>
+
+
+        <div class="AskClearDiv" id="AskClearDiv">Borrar Lista ?
+            <div class="YesClearDiv" id="YesClearDiv">Si</div>
+            <div class="NoClearDiv" id="NoClearDiv">No</div>
+        </div>
+
+        <div class="EmptyDiv" id="EmptyDiv"><img src="./Resources/ElPancitoLOGO.png" id="ImageLogo" class="ImageLogo">
+        </div>
+</body>
+
+</html>

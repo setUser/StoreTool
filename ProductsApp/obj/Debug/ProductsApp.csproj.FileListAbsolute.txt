@@ -1,0 +1,16 @@
+D:\Dropbox\Software\Development\0004 - Store\ProductsApp\bin\Debug\ProductsApp.exe.config
+D:\Dropbox\Software\Development\0004 - Store\ProductsApp\bin\Debug\ProductsApp.exe
+D:\Dropbox\Software\Development\0004 - Store\ProductsApp\bin\Debug\ProductsApp.pdb
+D:\Dropbox\Software\Development\0004 - Store\ProductsApp\bin\Debug\MySql.Data.dll
+D:\Dropbox\Software\Development\0004 - Store\ProductsApp\bin\Debug\Google.Protobuf.dll
+D:\Dropbox\Software\Development\0004 - Store\ProductsApp\bin\Debug\BouncyCastle.Crypto.dll
+D:\Dropbox\Software\Development\0004 - Store\ProductsApp\bin\Debug\MySql.Data.xml
+D:\Dropbox\Software\Development\0004 - Store\ProductsApp\obj\Debug\ProductsApp.Properties.Resources.resources
+D:\Dropbox\Software\Development\0004 - Store\ProductsApp\obj\Debug\ProductsApp.csproj.GenerateResource.cache
+D:\Dropbox\Software\Development\0004 - Store\ProductsApp\obj\Debug\ProductsApp.csproj.CoreCompileInputs.cache
+D:\Dropbox\Software\Development\0004 - Store\ProductsApp\obj\Debug\ProductsApp.csproj.CopyComplete
+D:\Dropbox\Software\Development\0004 - Store\ProductsApp\obj\Debug\ProductsApp.exe
+D:\Dropbox\Software\Development\0004 - Store\ProductsApp\obj\Debug\ProductsApp.pdb
+D:\Dropbox\Software\Development\0004 - Store\ProductsApp\obj\Debug\ProductsApp.Access.resources
+D:\Dropbox\Software\Development\0004 - Store\ProductsApp\obj\Debug\ProductsApp.csprojAssemblyReference.cache
+D:\Dropbox\Software\Development\0004 - Store\ProductsApp\obj\Debug\ProductsApp.CRUDapps.resources

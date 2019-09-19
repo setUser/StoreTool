@@ -1,0 +1,1 @@
+require('C:/wamp64/www/Controller/StoreController.js');

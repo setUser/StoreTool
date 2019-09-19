@@ -1,0 +1,10 @@
+D:\Dropbox\Software\Development\0004 - Store\StoreApp\bin\Debug\StoreApp.exe.config
+D:\Dropbox\Software\Development\0004 - Store\StoreApp\bin\Debug\StoreApp.exe
+D:\Dropbox\Software\Development\0004 - Store\StoreApp\bin\Debug\StoreApp.pdb
+D:\Dropbox\Software\Development\0004 - Store\StoreApp\obj\Debug\StoreApp.csprojAssemblyReference.cache
+D:\Dropbox\Software\Development\0004 - Store\StoreApp\obj\Debug\StoreApp.Form1.resources
+D:\Dropbox\Software\Development\0004 - Store\StoreApp\obj\Debug\StoreApp.Properties.Resources.resources
+D:\Dropbox\Software\Development\0004 - Store\StoreApp\obj\Debug\StoreApp.csproj.GenerateResource.cache
+D:\Dropbox\Software\Development\0004 - Store\StoreApp\obj\Debug\StoreApp.csproj.CoreCompileInputs.cache
+D:\Dropbox\Software\Development\0004 - Store\StoreApp\obj\Debug\StoreApp.exe
+D:\Dropbox\Software\Development\0004 - Store\StoreApp\obj\Debug\StoreApp.pdb

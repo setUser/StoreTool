@@ -1,0 +1,287 @@
+.MenuTable {
+    background-color: gray;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+.MenuRow{
+    width: 100%;
+}
+.ShowList {
+    font-style: normal;
+    color: black;
+    background-color: burlywood;
+    width: 30;
+    height: 50px;
+    padding: 0px;
+    margin: 0px;
+}
+.ShowTotal {
+    color: black;
+    background-color: white;
+    width: 40%;
+    height: 50px;
+    padding: 0px;
+    margin: 0px;
+}
+.SendList {
+    color: black;
+    background-color: burlywood;
+    width: 30%;
+    height: 50px;
+    padding: 0px;
+    margin: 0px;
+}
+/*------------------------------------------------------------------------------------------------*/
+.LessProduct {
+    display: none;
+    font-size: 38px;
+    vertical-align: middle;
+    text-align: center;
+    color: black;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+    border: 1px black solid;
+    border-radius: 25px;
+    margin: 0px;
+    position: fixed;
+    bottom: 115px;
+    right: 60px;
+}
+.MoreProduct {
+    display: none;
+    font-size: 45px;
+    vertical-align: middle;
+    text-align: center;
+    color: black;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+    border: 1px black solid;
+    border-radius: 25px;
+    margin: 0px;
+    position: fixed;
+    bottom: 115px;
+    right: 5px;
+}
+.SetQuantity {
+    display: none;
+    font-size: 35px;
+    vertical-align: middle;
+    text-align: left;
+    color: black;
+    background-color: white;
+    width: 100px;
+    height: 50px;
+    padding: 0px;
+    border: 1px black solid;
+    border-radius: 10px 10px 10px 10px;
+    margin: 0px;
+    position: fixed;
+    bottom: 115px;
+    left: 5px;
+}
+/*------------------------------------------------------------------------------------------------*/
+.CategoryTable {
+    background-color: gray;
+    position: fixed;
+    bottom: 50px;
+    left: 0px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+.CategoryRow {
+    width: 100%;
+}
+.CategoryButton {
+    text-align: center;
+    color: black;
+    background-color: burlywood;
+    height: 50px;
+    padding: 0px;
+    margin: 0px;
+}
+/*------------------------------------------------------------------------------------------------*/
+.ProductsTable {
+    width: 100%;
+}
+.CategoryTitleRow {
+    width: 100%;
+    height: 40px;
+    color: white;
+    background-color: darkorchid;
+}
+.CategoryTitleHeader {
+    column-span: all;
+    text-align: center;
+    font-size: 20px;
+}
+.ProductRow{
+    width: 100%;
+    height: 50px;
+    color: black;
+    background-color: white;
+}
+.ProductNameData{
+    text-align: left;
+    width: 70%;
+}
+.ProductPriceData{
+    text-align: center; 
+    width: 15%;
+}
+.ProductQuantityData{
+    text-align: center; 
+    width: 15%;
+}
+.UnSelectedRow{
+    background: white;
+}
+.SelectedRow{
+    background: silver;
+}
+.BuyingQuantity{
+    background: darkcyan;
+}
+/*------------------------------------------------------------------------------------------------*/
+.ListTable {
+    width: 100%;
+}
+.ClearListRow{
+    width: 100%;
+}
+.ClearList{
+    color: black;
+    background-color: lightsalmon;
+    text-align: center; 
+    width: 100%;
+    height: 40px;
+    padding: 0px;
+    margin: 0px;
+}
+/*------------------------------------------------------------------------------------------------*/
+.TotalTable {
+    display: none;
+    width: 100%;
+}
+.TotalRow{
+    width: 100%;
+    color: black;
+    background-color: white;
+}
+.TotalTitleHeader{
+    height: 30px;
+    text-align: left;
+    font-size: 25px;
+}
+.TotalValueData{
+    height: 40px;
+    text-align: right;
+    font-size: 25px;
+}
+.TotalNumberButton{
+    font-size: 20px;
+    text-align: center;
+    width: 30%;
+    height: 50px;
+    background-color: lightblue;
+    padding: 0px;
+    margin: 0px;
+}
+/*------------------------------------------------------------------------------------------------*/
+.AskSendDiv {
+    display: none;
+    width: 200px;
+    height: 140px;
+    background-color: white;
+    position: fixed;
+    bottom: 115px;
+    right: 5px;
+    text-align: center;
+    border-radius: 25px;
+    font-size: 40px;
+    border: 1px black solid;
+}
+.YesSendDiv {
+    width: 50px;
+    height: 40px;
+    background-color: mediumseagreen;
+    position: fixed;
+    bottom: 120px;
+    right: 125px;
+    text-align: center;
+    font-size: 30px;
+    border: 1px black solid;
+    border-radius: 25px;
+}
+.NoSendDiv {
+    width: 50px;
+    height: 40px;
+    background-color: tomato;
+    position: fixed;
+    bottom: 120px;
+    right: 35px;
+    text-align: center;
+    font-size: 30px;
+    border: 1px black solid;
+    border-radius: 25px;
+}
+/*------------------------------------------------------------------------------------------------*/
+.AskClearDiv {
+    display: none;
+    width: 200px;
+    height: 140px;
+    background-color: white;
+    position: fixed;
+    bottom: 115px;
+    right: 5px;
+    text-align: center;
+    border-radius: 25px;
+    font-size: 40px;
+    border: 1px black solid;
+}
+.YesClearDiv {
+    width: 50px;
+    height: 40px;
+    background-color: mediumseagreen;
+    position: fixed;
+    bottom: 120px;
+    right: 125px;
+    text-align: center;
+    font-size: 30px;
+    border: 1px black solid;
+    border-radius: 25px;
+}
+.NoClearDiv {
+    width: 50px;
+    height: 40px;
+    background-color: tomato;
+    position: fixed;
+    bottom: 120px;
+    right: 35px;
+    text-align: center;
+    font-size: 30px;
+    border: 1px black solid;
+    border-radius: 25px;
+}
+/*------------------------------------------------------------------------------------------------*/
+.ImageLogo {
+    width: 90%;
+    height: 200px;
+}
+.EmptyDiv{
+    width: 100%;
+    height: 400px;
+    text-align: center;
+}
+body {
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+}

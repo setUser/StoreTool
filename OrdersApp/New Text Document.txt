@@ -1,0 +1,25 @@
+ try
+            {
+                string _connectionString = $"Server = localhost; Database = DB_ElPancito; Uid = Cardo; Pwd =Nathalie1911031995;";
+                using (MySqlConnection connection = new MySqlConnection(_connectionString))
+                {
+                    MySqlCommand command = new MySqlCommand($"SELECT * FROM Productos_ElPancito ORDER BY CodigoProducto;", connection);
+                    //connection.Open();
+
+                    MySqlDataAdapter dataAdapter = new MySqlDataAdapter();
+                    dataAdapter.SelectCommand = command;
+                    DataTable dataTable = new DataTable();
+                    dataAdapter.Fill(dataTable);
+                    BindingSource bindingSource = new BindingSource();
+
+                    bindingSource.DataSource = dataTable;
+                    ProductsDataGridView.DataSource = bindingSource;
+                    dataAdapter.Update(dataTable);
+                    
+                    //connection.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Table ERROR =\n\n" + ex);
+            }
